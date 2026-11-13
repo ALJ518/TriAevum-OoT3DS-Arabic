@@ -4,13 +4,14 @@ import json
 import os
 import shutil
 import struct
+import sys
 import tempfile
 import tkinter as tk
 import zipfile
 from pathlib import Path
 from tkinter import filedialog
 from typing import Mapping
-game_root = Path(sys.executable).resolve().parent if getattr(sys, "frozen", False) else Path(__file__).resolve().parent
+
 try:
     from PIL import Image, ImageFilter
     HAS_PIL = True
@@ -540,7 +541,7 @@ def process_source(source_root: Path, game_root: Path, scale: int) -> None:
 
 # نقطة الدخول: استقبال ملف الـ zip المسحوب أو اختياره يدوياً وفكه مؤقتاً ثم تشغيل المعالجة
 def main() -> None:
-    game_root = Path(__file__).resolve().parent
+    game_root = Path(sys.executable).resolve().parent if getattr(sys, "frozen", False) else Path(__file__).resolve().parent
 
     parser = argparse.ArgumentParser()
     parser.add_argument("input_path", nargs="?", default=None, type=Path)
