@@ -10,7 +10,9 @@
 
 1. **تنزيل اللعبة:** حمّل أحدث إصدار من مشروع **TriAevum** عبر الرابط الرسمي:  
    https://github.com/coccofresco/TriAevum
-2. **تجهيز اللعبة:** فك الضغط، ثم شغّل **`TriAevumForge.exe`** واختر ملف الـ ROM الخاص بك (نسخة EUR بصيغة `.3ds` أو `.cci`)، ثم اضغط **Prepare** وانتظر حتى ينتهي البناء.
+2. **تجهيز اللعبة:** فك الضغط، ثم شغّل **`TriAevumForge.exe`** واختر ملف الـ ROM الخاص بك (نسخة EUR بصيغة `.3ds` أو `.cci`)، **واختر اللغة الإنجليزية (`English`)**، ثم اضغط **Prepare** وانتظر حتى ينتهي البناء (ويجب إبقاء لغة اللعبة على **English** عند التشغيل).
+<img width="711" height="179" alt="image" src="https://github.com/user-attachments/assets/a36334dd-fa81-4a6d-8c02-ac437f5a7f48" />
+
 3. **إضافة أداة التعريب:** حمّل الأداة من صفحة **[Releases](https://github.com/ALJ518/TriAevum-OoT3DS-Arabic/releases)** في هذا المستودع، وضع ملفي **`build_custom_o3ro.exe`** و **`تثبيت تعريب الحلم المتجدد.bat`** داخل مجلد اللعبة الرئيسي (بجانب `Echoes_of_Time.exe`).
 4. **تنزيل التعريب:** حمّل ملف التعريب المضغوط (`.zip`) من صفحة فريق الحلم المتجدد:  
    https://etrdream.com/game/zelda-ocarina-of-time/
